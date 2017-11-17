@@ -15,7 +15,7 @@ language: php
 php:
   - 7.1
 #before_install: ./before_install.sh
-install: composer install --no-interaction --prefer-dist
+#install: composer install --no-interaction --prefer-dist
 before_script:
   - mkdir pull_disk
   - git clone -b master --depth 1 https://github.com/Magestore/FulfilSuccess-M2.git ./pull_disk
