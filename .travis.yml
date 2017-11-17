@@ -18,6 +18,6 @@ php:
 #install: composer install --no-interaction --prefer-dist
 before_script:
   - mkdir pull_disk
-  - git clone -b master --depth=1 https://github.com/Magestore/devops-demo-omnichannel-api.git ./pull_disk
+  - git clone -b master --depth=1 git@github.com:Magestore/devops-demo-omnichannel-api.git ./pull_disk
 script:
   - ls -lah pull_disk
