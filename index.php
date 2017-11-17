@@ -2,4 +2,4 @@
 
 phpinfo();
 
-echo "test ok";
+echo "test ok 1";
